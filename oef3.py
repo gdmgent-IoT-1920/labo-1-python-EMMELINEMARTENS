@@ -26,6 +26,8 @@ def kipOfEi():
 # play the game 
 if __name__== '__main__': 
 	num = str(random.randrange(1000,10000))
+	# als test gelogd om de werking te checken
+	print(num)
 	print("LINGO-BINGO: Welkom bij het kip en eieren spel")
 	print("Geef een viercijferig getal in")
 	kip = 0
@@ -34,4 +36,4 @@ if __name__== '__main__':
 		count += 1
 		kip = kipOfEi()
 
-	print("Je had {} pogingen nodig".fomrat(count))
+	print("Je had {} pogingen nodig".format(count))
